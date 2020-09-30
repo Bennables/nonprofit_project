@@ -1,6 +1,7 @@
 def displayIntro():
     #put an Introduction message to the user
     print ("Welcome to Project 1")
+    
     return
 
 def displayNonProfits():
@@ -11,6 +12,17 @@ def displayNonProfits():
     
     x = input (f'Which would you like to donate to? \n {array[0]}, \n {array[1]}, \n {array[2]}, \n {array[3]}')
     y = input ("How much money would you like to donate?")
+
+    if x == "1":
+        a = a + y
+    elif x == "2":
+        b = b + y
+    elif x == "3":
+        c = c + y
+    elif x == "4":
+        print ("Thank You for your donations!")
+
+    
     
     
     #print all the non-profits to the screen numerically. For Example:

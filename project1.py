@@ -4,6 +4,10 @@ def displayIntro():
   return
 
 def displayNonProfits():
+    a = 0
+    b = 0
+    c = 0
+    print 
   #print all the non-profits to the screen numerically. For Example:
 #    1. World Central Kitchen
 #    2. Crisis Text Line

@@ -8,7 +8,11 @@ def displayNonProfits():
     b = 0
     c = 0
     array = ["1. World Central Kitchen", "2. Crisis Text Line", "3. Heart to Heart International", "4. Finish"]
+    
     x = input (f'Which would you like to donate to? \n {array[0]}, \n {array[1]}, \n {array[2]}, \n {array[3]}')
+    y = input ("How much money would you like to donate?")
+    
+    
     #print all the non-profits to the screen numerically. For Example:
     # 1. World Central Kitchen  
     # 2. Crisis Text Line

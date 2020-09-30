@@ -1,22 +1,23 @@
 def displayIntro():
-  #put an Introduction message to the user
-  print ("Welcome to Project 1")
-  return
+    #put an Introduction message to the user
+    print ("Welcome to Project 1")
+    return
 
 def displayNonProfits():
     a = 0
     b = 0
     c = 0
-    print 
-  #print all the non-profits to the screen numerically. For Example:
-#    1. World Central Kitchen
-#    2. Crisis Text Line
-#    3. Heart to Heart International
-  return
+    array = ["1. World Central Kitchen", "2. Crisis Text Line", "3. Heart to Heart International", "4. Finish"]
+    x = input (f'Which would you like to donate to? \n {array[0]}, \n {array[1]}, \n {array[2]}, \n {array[3]}')
+    #print all the non-profits to the screen numerically. For Example:
+    # 1. World Central Kitchen  
+    # 2. Crisis Text Line
+    # 3. Heart to Heart Internationalreturn
 
 
 def main():
-	displayIntro()
+    displayIntro()
+    displayNonProfits()
 
 	#steps: 
 	#1. welcome the user using a unique Intro Message (use a function for this)

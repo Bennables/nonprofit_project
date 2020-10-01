@@ -8,19 +8,35 @@ def displayNonProfits():
     a = 0
     b = 0
     c = 0
+    loop = True
     array = ["1. World Central Kitchen", "2. Crisis Text Line", "3. Heart to Heart International", "4. Finish"]
     
-    x = input (f'Which would you like to donate to? \n {array[0]}, \n {array[1]}, \n {array[2]}, \n {array[3]}')
-    y = input ("How much money would you like to donate?")
+    while loop == True:
+        x = ( input (f'Which would you like to donate to? \n {array[0]}, \n {array[1]}, \n {array[2]}, \n {array[3]}\n '))
 
-    if x == "1":
-        a = a + y
-    elif x == "2":
-        b = b + y
-    elif x == "3":
-        c = c + y
-    elif x == "4":
-        print ("Thank You for your donations!")
+        if x == "1":
+            y = int( input ("How much money would you like to donate?"))
+            a = a + y
+            print(a)
+            print(b)
+            print(c)
+        elif x == "2":
+            y = int( input ("How much money would you like to donate?"))
+            b = b + y
+            print(a)
+            print(b)
+            print(c)
+        elif x == "3":
+            y = int( input ("How much money would you like to donate?"))
+            c = c + y
+            print(a)
+            print(b)
+            print(c)
+        elif x == "4":
+            print ("Thank You for your donations!")
+            loop = False
+        else:
+            print("Please pick a number.")
 
     
     
